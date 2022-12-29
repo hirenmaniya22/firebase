@@ -46,6 +46,7 @@ class _f_dataState extends State<f_data> {
       sound: true,
     );
 
+
     print('User granted permission: ${settings.authorizationStatus}');
 
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
